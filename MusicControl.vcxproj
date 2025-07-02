@@ -71,10 +71,10 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Program Files (x86)\Java\jdk-21.0.1\include\win32;C:\Program Files (x86)\Java\jdk-21.0.1\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Program Files (x86)\Java\jdk-17.0.2\include\win32;C:\Program Files (x86)\Java\jdk-17.0.2\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Program Files\Java\jdk-21\include\win32;C:\Program Files\Java\jdk-21\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Program Files (x86)\Java\jdk-17.0.2\include\win32;C:\Program Files (x86)\Java\jdk-17.0.2\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -126,6 +126,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
